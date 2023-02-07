@@ -16,6 +16,6 @@ def refresh_token(refresh_token):
         try:
             r = requests.post(uri,headers=headers,data=data)
         except:
-            print(r.text)
+            print("test")
 
 
